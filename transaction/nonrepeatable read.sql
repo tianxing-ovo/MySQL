@@ -1,4 +1,4 @@
--- 不可重复读(nonrepeatable read): 一个事务先后读取同一条记录,但两次读取的数据不同
+-- 不可重复读(nonrepeatable read): 前后读取同一条记录的数据不一致
 -- 事务1
 -- 隔离级别: 读已提交(Read Committed)
 -- money = 2000
